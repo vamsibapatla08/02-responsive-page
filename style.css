@@ -127,3 +127,35 @@ a:hover {
   margin-bottom: 20px;
   border-radius: 5px;
 }
+
+/* Allws CSS to apply these styles when it reaches certain width or condition */
+@media (max-width: 768px) {
+  body{
+    background-color: blue;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2, #featured-article h2 {
+    font-size: 20px;
+  }
+
+  main {
+    padding: 12px;
+  }
+
+  section {
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+
+  #featured-article {
+    padding: 24px;
+  }
+
+  p {
+    margin: 8px 0;
+  }
+}
