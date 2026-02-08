@@ -26,6 +26,8 @@ h1 {
 
 main {
   padding: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 section {
@@ -120,6 +122,8 @@ a:hover {
 }
 
 .article img {
+  max-width: 100%;
+  height: auto;
   margin-bottom: 20px;
   border-radius: 5px;
 }
